@@ -228,7 +228,8 @@ header {
 
 @media (max-width: 615px) {
   .card-header {
-    width: 250px; }
+    width: 250px;
+    font-size: 17px; }
   .cityImg {
     height: 939px; }
   .card {
@@ -297,41 +298,7 @@ header {
   display: -ms-flexbox;
   display: flex; }
 
-.iconFb {
-  font-weight: 400;
-  font-style: normal;
-  font-size: 48px;
-  color: #CCCCCC;
-  text-align: center; }
-
-.iconTw {
-  font-style: normal;
-  font-size: 48px;
-  color: #CCCCCC;
-  text-align: center; }
-
-.iconG {
-  font-weight: 400;
-  font-style: normal;
-  font-size: 48px;
-  color: #CCCCCC;
-  text-align: center; }
-
-.iconP {
-  font-weight: 400;
-  font-style: normal;
-  font-size: 48px;
-  color: #CCCCCC;
-  text-align: center; }
-
-.iconInst {
-  font-weight: 400;
-  font-style: normal;
-  font-size: 48px;
-  color: #CCCCCC;
-  text-align: center; }
-
-.iconRss {
+.MainIcon {
   font-weight: 400;
   font-style: normal;
   font-size: 48px;
@@ -418,6 +385,11 @@ header {
   display: -ms-flexbox;
   display: flex; }
 
+.TabsRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
 .secTabsContent {
   margin-left: 170px;
   margin-right: 50px;
@@ -498,8 +470,17 @@ header {
     padding-right: 25px;
     padding-top: 42px;
     padding-bottom: 50px; }
-  .tImg {
-    width: 200px; } }
+  .TabsImg {
+    margin-top: 15px;
+    display: table;
+    margin: 0 auto; }
+  .TabsRight {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .tabsbtn {
+    display: table;
+    margin: 0 auto;
+    margin-top: 20px; } }
 
 @media (max-width: 764px) {
   .secTabsContent {
@@ -509,40 +490,33 @@ header {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 37px;
-    padding-bottom: 50px; }
-  .tImg {
-    width: 200px; } }
+    padding-bottom: 50px; } }
 
 @media (max-width: 674px) {
   .secTabsContent {
-    margin-left: 15px;
-    margin-right: 15px; }
+    margin-left: 24px;
+    margin-right: 5px; }
   .tabs {
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 27px;
-    padding-bottom: 50px; }
-  .tImg {
-    width: 180px; } }
+    padding-bottom: 50px; } }
 
 @media (max-width: 600px) {
   .tab {
-    width: 63px;
-    height: 63px;
+    width: 80px;
+    height: 85px;
     padding-top: 24px;
     padding-left: 12px; }
   .secTabsContent {
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 0px; }
+    margin-bottom: -20px; }
+  .tImg {
+    width: 220px; }
   .tabs {
     padding-left: 2px;
     padding-right: 2px;
     padding-top: 12px;
     padding-bottom: 0px; }
-  .tImg {
-    width: 170px;
-    height: 144px; }
   .nav-pills {
     height: 190px; } }
 
@@ -560,49 +534,39 @@ header {
     margin-bottom: 10px;
     font-size: 13px; } }
 
-@media (max-width: 546px) {
-  .tabs {
-    padding-top: 15px; }
-  .tabLine {
-    margin-top: 3px;
-    margin-bottom: 3px; }
-  .tabsbtn {
-    margin-top: 18px;
-    width: 118px;
-    height: 35px;
-    line-height: 0; }
-  .parag1 {
-    line-height: 18px; }
-  .parag2 {
-    line-height: 18px;
-    margin-top: 5px;
-    margin-bottom: 4px; } }
+@media (max-width: 570px) {
+  .secTabsContent {
+    width: 428px; } }
 
-@media (max-width: 490px) {
-  .tab {
-    width: 45px;
-    height: 55px;
-    padding-top: 24px;
-    padding-left: 5px; }
+@media (max-width: 542px) {
+  .secTabsContent {
+    width: 328px; }
+  .TabsImg {
+    margin-top: 15px;
+    margin-bottom: 15px; } }
+
+@media (max-width: 448px) {
+  .secTabsContent {
+    width: 290px; }
+  .TabsImg {
+    margin-top: 25px;
+    margin-bottom: 15px; } }
+
+@media (max-width: 400px) {
+  .secTabsContent {
+    width: 255px; }
+  .TabsImg {
+    margin-top: 45px;
+    margin-bottom: 15px; } }
+
+@media (max-width: 376px) {
+  .secTabsContent {
+    width: 200px; }
   .tImg {
-    width: 100px;
-    height: 110px; }
-  .secTabsContent {
-    height: 320px;
-    margin-top: 0px;
-    padding-bottom: 10px; }
-  .parag1 {
-    line-height: 14px; }
-  .parag2 {
-    line-height: 14px; } }
-
-@media (max-width: 415px) {
-  .secTabsContent {
-    height: 250px; } }
-
-@media (max-width: 390px) {
-  .secTabsContent {
-    height: 350px; } }
+    width: 200px; }
+  .TabsImg {
+    margin-top: 150px;
+    margin-bottom: 15px; } }
 
 .pic1Section {
   padding-left: 80px;
@@ -872,7 +836,8 @@ header {
 
 .IconsOfAwesome {
   padding: 3px;
-  padding-top: 15px;
+  padding-right: 2px;
+  padding-top: 16px;
   border: 1px solid;
   border-color: #fc8a4a;
   border-width: 1px;
@@ -884,6 +849,10 @@ header {
   font-size: 32px;
   color: #FF8B38;
   text-align: center; }
+
+.IconsOfAwesome:hover {
+  background-color: #FF8B38;
+  color: black; }
 
 .AwesomeSubTitle {
   margin-top: 22px;
@@ -945,12 +914,14 @@ header {
   .pic2SecLeft {
     text-align: center; } }
 
+@media (max-width: 766px) {
+  .optionOfWrap {
+    margin-top: 50px;
+    margin-bottom: 50px; } }
+
 @media (max-width: 571px) {
   .subContentOfAwesome {
     margin-top: 43px; }
-  .optionOfWrap {
-    margin-top: 15px;
-    margin-bottom: 15px; }
   .AwesomeSubTitle {
     margin-top: 17px;
     margin-bottom: 17px; }
@@ -1070,6 +1041,11 @@ header {
   font-size: 14px;
   color: white;
   text-align: center; }
+
+.subContentOfPricingOptions:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); }
 
 .DivOfP {
   background-color: rgba(255, 255, 255, 0.498039);
@@ -1296,6 +1272,10 @@ header {
         -ms-flex-pack: center;
             justify-content: center;
     margin-bottom: 54px; } }
+
+@media (max-width: 1180px) {
+  .MessageBox {
+    margin-left: 0px; } }
 
 @media (max-width: 685px) {
   .NormalInputBox {

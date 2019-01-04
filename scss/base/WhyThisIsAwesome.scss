@@ -47,7 +47,8 @@
 
 .IconsOfAwesome{
     padding: 3px;
-    padding-top: 15px;
+    padding-right: 2px;
+    padding-top: 16px;
 
     border: 1px solid;
     border-color:#fc8a4a;
@@ -62,6 +63,13 @@
     color: #FF8B38;
     text-align: center;
 }
+
+.IconsOfAwesome:hover{
+    background-color: #FF8B38;
+    color: black;
+}
+
+
 
 .AwesomeSubTitle{
     @include marginTB(22px,22px);
@@ -127,6 +135,16 @@
    } 
   }
 
+  @media  (max-width:766px) {
+    .optionOfWrap{
+        margin-top:50px;
+        margin-bottom: 50px;
+    }
+   }
+
+
+
+ 
 
 
   @media  (max-width:571px) {
@@ -134,10 +152,7 @@
     .subContentOfAwesome{
         margin-top:43px;
     }
-    .optionOfWrap{
-        margin-top:15px;
-        margin-bottom: 15px;
-    }
+    
     .AwesomeSubTitle{
         margin-top: 17px;
     margin-bottom: 17px;
