@@ -43,10 +43,14 @@
 
 .zIndex{
     position: relative;
-    bottom: 235px;
+    bottom: 255px;
     z-index: 1;
 
 }
+.LineUnderTitle{
+    left: 47.5%;
+}
+
 @media (max-width:468px){
     .LineUnderTitle {
         left: 41%;

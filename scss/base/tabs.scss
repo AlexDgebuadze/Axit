@@ -4,7 +4,7 @@
 
 .tabs{
     background-color:rgba(245, 245, 245, 1);
-    @include paddingLR($paddingLeft+45px,$paddingRight+45px);
+    @include paddingLR(127px,$paddingRight+45px);
     @include paddingTB($paddingTop+100px,$paddingBottom+100px);
 }
 
@@ -44,7 +44,7 @@
 }
 
 .secTabsContent{
-   @include marginLR(170px,50px);
+   @include marginLR(140px,50px);
    @include marginTB(15px,30px);
    width: 482px;
    height: 300px;
@@ -110,7 +110,7 @@
 
 
      .tabs{
-        @include paddingLR($paddingLeft+20px,$paddingRight+20px);
+        @include paddingLR(25px,25px);
         @include paddingTB($paddingTop+100px,$paddingBottom+100px);
      }
 
@@ -127,7 +127,6 @@
 
 
      .tabs{
-        @include paddingLR(25px,25px);
         @include paddingTB($paddingTop+30px,$paddingBottom+50px);
      }
 

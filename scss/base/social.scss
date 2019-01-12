@@ -3,7 +3,7 @@
 @import 'module/mixins';
 
 .social{
-    @include paddingLR($paddingLeft+50px,$paddingRight+50px);
+    @include paddingLR(127px,120px);
     @include paddingTB($paddingTop+20px,$paddingBottom+20px);
     border-bottom: groove;
 }
@@ -32,7 +32,7 @@
 
 
 .icons{
-    margin-left: 65px;
+    margin-left: 88px;
     width:600px;
     display: flex;
     @include flex(space-between,center);

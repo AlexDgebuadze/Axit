@@ -19,6 +19,11 @@
 .NormalInputBox{
     width: 600px;
 }
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
 .MessageBox{
     width: 600px;
     height: 183px;
