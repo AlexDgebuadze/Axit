@@ -30,6 +30,11 @@
     color: #86878B;
     line-height: 20px;
 }
+.pic2SecRight:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
 .pic2SecLine{
     @include marginTB(15px,15px);
     width:55px;
