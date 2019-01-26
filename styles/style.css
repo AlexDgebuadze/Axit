@@ -111,6 +111,8 @@ header {
   position: relative; }
 
 .secContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
 
 .card {
@@ -221,7 +223,8 @@ header {
   .secLeft {
     width: 100%; }
   .secContent {
-    flex-wrap: wrap; } }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; } }
 
 @media (max-width: 615px) {
   .card-header {
@@ -280,11 +283,19 @@ header {
 .icons {
   margin-left: 88px;
   width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .socContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
 
 .MainIcon {
@@ -325,7 +336,8 @@ header {
   .socTitle {
     font-size: 15px; }
   .socContent {
-    flex-wrap: wrap; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
   .social {
     padding-left: 10px;
     padding-right: 10px;
@@ -369,9 +381,13 @@ header {
   border-radius: 2px; }
 
 .tabsMainDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
 
 .TabsRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
 
 .secTabsContent {
@@ -457,7 +473,8 @@ header {
     display: table;
     margin: 0 auto; }
   .TabsRight {
-    flex-wrap: wrap; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
   .tabsbtn {
     display: table;
     margin: 0 auto;
@@ -556,6 +573,8 @@ header {
   padding-bottom: 100px; }
 
 .pic1SectionMainDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
 
 .pic1SecLine {
@@ -593,6 +612,8 @@ header {
   margin-left: 5px; }
 
 .subDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 15px;
   margin-left: 15px; }
@@ -657,7 +678,8 @@ header {
 
 @media (max-width: 613px) {
   .pic1SectionMainDiv {
-    flex-wrap: wrap; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
   .pic1SecLine {
     margin-top: 13px;
     margin-bottom: 10px; }
@@ -681,8 +703,12 @@ header {
   background-color: whitesmoke; }
 
 .pic2SectionMainDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .pic2SecTitle {
   margin-top: 35px;
@@ -742,8 +768,11 @@ header {
 
 @media (max-width: 876px) {
   .pic2SectionMainDiv {
-    justify-content: center;
-    flex-wrap: wrap; }
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
   .city3 {
     padding-left: 0px;
     width: 489px;
@@ -860,8 +889,12 @@ header {
   line-height: 20px; }
 
 .subContentOfAwesome {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 60px;
   margin-bottom: 0px; }
 
@@ -874,9 +907,14 @@ header {
 
 @media (max-width: 1123px) {
   .subContentOfAwesome {
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
   .WhyThisIsAwesomeMainDiv {
     padding-left: 5px;
     padding-right: 5px;
@@ -929,7 +967,9 @@ header {
   line-height: 43px; }
 
 .HeadDivsOfOp {
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   width: 343px;
   text-align: center;
@@ -941,10 +981,14 @@ header {
     top: 40%; }
 
 .underHeadOfPricingOptions {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 50px;
   margin-bottom: 50px;
-  justify-content: space-between; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .packNameDiv {
   font-family: 'Open Sans Bold', 'Open Sans Regular', 'Open Sans';
@@ -1012,14 +1056,17 @@ header {
 
 @media (max-width: 1188px) {
   .underHeadOfPricingOptions {
-    flex-wrap: wrap; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
   .Enterprise {
     position: relative;
     left: 25%; } }
 
 @media (max-width: 834px) {
   .underHeadOfPricingOptions {
-    justify-content: center; }
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
   .Enterprise {
     position: relative;
     left: auto; }
@@ -1079,6 +1126,8 @@ header {
   color: whitesmoke; }
 
 .customerInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
   bottom: 36px; }
@@ -1102,22 +1151,31 @@ header {
   margin: 15px; }
 
 .AllQuotes {
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 40px; }
 
 @media (max-width: 905px) {
   .AllQuotes {
-    flex-wrap: wrap; } }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; } }
 
 @media (max-width: 449px) {
   .AllQuotes {
-    flex-wrap: wrap; } }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; } }
 
 .StylishDesign {
   max-height: 408px; }
 
 .PictureOfSection {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/street.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/street.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/street.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/street.jpg");
   background-position: center;
   background-color: rgba(0, 0, 0, 0.498039);
@@ -1176,8 +1234,12 @@ header {
     height: 40px; } }
 
 .ContactUsForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .LeftSideOfBox {
   margin-right: 30px; }
@@ -1211,8 +1273,11 @@ header {
 
 @media (max-width: 1190px) {
   .ContactUsForm {
-    flex-wrap: wrap;
-    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-bottom: 54px; } }
 
 @media (max-width: 1180px) {
@@ -1228,13 +1293,21 @@ header {
 
 .MyFooter {
   background-color: black;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center; }
 
 .FooterIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 15px;
   padding-bottom: 5px; }
 
