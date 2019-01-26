@@ -22,14 +22,20 @@
     text-align: center;
     line-height: 43px;
 }
-.LineUnderTitle{
-    background-color: $colorP;
-    @include marginTB(25px,25px);
+
+.TitleOfHead::after{
+    content: '';
+    margin: 0 auto;
+    display: block;
     width:62px;
     height:2px;
-    position: relative;
-    left: 47%;
+    background-color: $colorP;
+    @include marginTB(25px,25px);
+   
 }
+
+
+
 .TextUnderLine{
     font-family: 'Open Sans Regular', 'Open Sans';
     font-weight: 400;
@@ -159,11 +165,6 @@
     }
 
 
-    .LineUnderTitle {
-        left: 41%;
-    }
-
-
 
   }
 
@@ -172,9 +173,7 @@
         width: 100%;
     }
 
-    .LineUnderTitle {
-        left: 40%;
-    }
+   
     .AwesomeSubTitle {
         width:100%;
         margin-top: 10px;
