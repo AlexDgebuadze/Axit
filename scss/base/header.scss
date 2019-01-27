@@ -85,13 +85,23 @@ header{
         padding: 0.5rem 0rem;
     }
 
-
-
 }
+
+@media  (max-width:384px) {
+ .navbar-header{
+    margin:0 auto;
+    margin-bottom: 5px;
+
+ }
+
+       
+}
+
+
+
 @media  (max-width:358px) {
 
     .logo{
-        margin-left:135px;
         height: 18px;
         width: 42px;
     }

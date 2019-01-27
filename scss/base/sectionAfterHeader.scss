@@ -86,6 +86,7 @@
   z-index: 0;
 
 }
+
 .Email{
 	@include marginTB(25px,25px);
 }
@@ -106,6 +107,20 @@
 	color: black;
 }
 
+.secRight{
+
+}
+
+
+.ml-auto, .mx-auto {
+     margin-left: 0!important; 
+}
+.mr-auto, .mx-auto {
+     margin-right: 0!important; 
+}
+
+
+
 
 @media  (max-width:1175px) {
   
@@ -116,7 +131,7 @@
     z-index: 0;
   }
   .container{
-	width: 41px;
+	width: 370px;
    }
 
 
@@ -126,8 +141,8 @@
 		height: 939px;
 	}
     .secRight{
-		margin-left: 21px;
-		width: 83px;
+		margin: 0 auto;
+		width: auto;
 	}
 	.secLogo{
 		height: 70px;
@@ -151,6 +166,9 @@
   }
 
   @media  (max-width:615px) {
+	  .container{
+		  width:280px;
+	  }
 	 .card-header{
 		 width: 250px;
 		 font-size: 17px;
@@ -175,6 +193,7 @@
  @media (max-width: 580px){
    .secLeft{
 	   width: 295px;
+	   
    }
 
 

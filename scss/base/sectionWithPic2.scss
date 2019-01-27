@@ -80,6 +80,7 @@
         flex-wrap: wrap;
     }
     .city3 {
+        margin-top:15px;
         padding-left: 0px;
         width: 489px;
         height: 403px;
@@ -121,7 +122,7 @@
 @media  (max-width:458px) {
     .city3 {
         padding-left: 0px;
-        width: 262px;
-        height: 198px;
+        height: 230px;
+        width:300px;
     }
 }

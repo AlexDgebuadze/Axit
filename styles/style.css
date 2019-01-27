@@ -92,9 +92,13 @@ header {
   .navbar {
     padding: 0.5rem 0rem; } }
 
+@media (max-width: 384px) {
+  .navbar-header {
+    margin: 0 auto;
+    margin-bottom: 5px; } }
+
 @media (max-width: 358px) {
   .logo {
-    margin-left: 135px;
     height: 18px;
     width: 42px; } }
 
@@ -111,8 +115,6 @@ header {
   position: relative; }
 
 .secContent {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
 
 .card {
@@ -200,6 +202,12 @@ header {
   background-color: white;
   color: black; }
 
+.ml-auto, .mx-auto {
+  margin-left: 0 !important; }
+
+.mr-auto, .mx-auto {
+  margin-right: 0 !important; }
+
 @media (max-width: 1175px) {
   .secContent {
     position: absolute;
@@ -207,14 +215,14 @@ header {
     top: 94px;
     z-index: 0; }
   .container {
-    width: 41px; } }
+    width: 370px; } }
 
 @media (max-width: 968px) {
   .cityImg {
     height: 939px; }
   .secRight {
-    margin-left: 21px;
-    width: 83px; }
+    margin: 0 auto;
+    width: auto; }
   .secLogo {
     height: 70px; }
   .card {
@@ -223,10 +231,11 @@ header {
   .secLeft {
     width: 100%; }
   .secContent {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; } }
+    flex-wrap: wrap; } }
 
 @media (max-width: 615px) {
+  .container {
+    width: 280px; }
   .card-header {
     width: 250px;
     font-size: 17px; }
@@ -283,19 +292,11 @@ header {
 .icons {
   margin-left: 88px;
   width: 600px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  justify-content: space-between;
+  align-items: center; }
 
 .socContent {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
 
 .MainIcon {
@@ -336,8 +337,7 @@ header {
   .socTitle {
     font-size: 15px; }
   .socContent {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+    flex-wrap: wrap; }
   .social {
     padding-left: 10px;
     padding-right: 10px;
@@ -381,13 +381,9 @@ header {
   border-radius: 2px; }
 
 .tabsMainDiv {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
 
 .TabsRight {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
 
 .secTabsContent {
@@ -473,8 +469,7 @@ header {
     display: table;
     margin: 0 auto; }
   .TabsRight {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+    flex-wrap: wrap; }
   .tabsbtn {
     display: table;
     margin: 0 auto;
@@ -573,8 +568,6 @@ header {
   padding-bottom: 100px; }
 
 .pic1SectionMainDiv {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
 
 .pic1SecLine {
@@ -612,8 +605,6 @@ header {
   margin-left: 5px; }
 
 .subDiv {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 15px;
   margin-left: 15px; }
@@ -651,7 +642,10 @@ header {
 
 @media (max-width: 1221px) {
   .pic1SectionContent {
-    margin-left: 5px; }
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 16px;
+    margin-bottom: 53px; }
   .subContent {
     margin-left: 20px; } }
 
@@ -678,11 +672,12 @@ header {
 
 @media (max-width: 613px) {
   .pic1SectionMainDiv {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+    flex-wrap: wrap; }
   .pic1SecLine {
     margin-top: 13px;
     margin-bottom: 10px; }
+  .pic1SectionImg {
+    margin: 0 auto; }
   .city2 {
     margin-left: 35px;
     height: 250px; }
@@ -703,12 +698,8 @@ header {
   background-color: whitesmoke; }
 
 .pic2SectionMainDiv {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  justify-content: space-between; }
 
 .pic2SecTitle {
   margin-top: 35px;
@@ -768,12 +759,10 @@ header {
 
 @media (max-width: 876px) {
   .pic2SectionMainDiv {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+    justify-content: center;
+    flex-wrap: wrap; }
   .city3 {
+    margin-top: 15px;
     padding-left: 0px;
     width: 489px;
     height: 403px; } }
@@ -805,8 +794,8 @@ header {
 @media (max-width: 458px) {
   .city3 {
     padding-left: 0px;
-    width: 262px;
-    height: 198px; } }
+    height: 230px;
+    width: 300px; } }
 
 .WhyThisIsAwesomeMainDiv {
   padding-left: 129px;
@@ -889,12 +878,8 @@ header {
   line-height: 20px; }
 
 .subContentOfAwesome {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin-top: 60px;
   margin-bottom: 0px; }
 
@@ -907,14 +892,9 @@ header {
 
 @media (max-width: 1123px) {
   .subContentOfAwesome {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; }
   .WhyThisIsAwesomeMainDiv {
     padding-left: 5px;
     padding-right: 5px;
@@ -967,9 +947,7 @@ header {
   line-height: 43px; }
 
 .HeadDivsOfOp {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   text-align: center;
   width: 343px;
   text-align: center;
@@ -981,14 +959,10 @@ header {
     top: 40%; }
 
 .underHeadOfPricingOptions {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 50px;
   margin-bottom: 50px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  justify-content: space-between; }
 
 .packNameDiv {
   font-family: 'Open Sans Bold', 'Open Sans Regular', 'Open Sans';
@@ -1056,17 +1030,14 @@ header {
 
 @media (max-width: 1188px) {
   .underHeadOfPricingOptions {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+    flex-wrap: wrap; }
   .Enterprise {
     position: relative;
     left: 25%; } }
 
 @media (max-width: 834px) {
   .underHeadOfPricingOptions {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
+    justify-content: center; }
   .Enterprise {
     position: relative;
     left: auto; }
@@ -1126,8 +1097,6 @@ header {
   color: whitesmoke; }
 
 .customerInfo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
   bottom: 36px; }
@@ -1151,31 +1120,22 @@ header {
   margin: 15px; }
 
 .AllQuotes {
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  justify-content: space-evenly;
   display: flex;
   margin-top: 40px; }
 
 @media (max-width: 905px) {
   .AllQuotes {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; } }
+    flex-wrap: wrap; } }
 
 @media (max-width: 449px) {
   .AllQuotes {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; } }
+    flex-wrap: wrap; } }
 
 .StylishDesign {
   max-height: 408px; }
 
 .PictureOfSection {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/street.jpg");
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/street.jpg");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/street.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/street.jpg");
   background-position: center;
   background-color: rgba(0, 0, 0, 0.498039);
@@ -1205,8 +1165,10 @@ header {
 
 .zIndex {
   position: relative;
-  bottom: 255px;
-  z-index: 1; }
+  bottom: 260px;
+  z-index: 1;
+  padding-left: 15px;
+  padding-right: 15px; }
 
 .TitleOfHeadS {
   font-family: 'Raleway Regular', 'Raleway';
@@ -1227,19 +1189,21 @@ header {
   margin-bottom: 25px;
   background-color: white; }
 
-@media (max-width: 364px) {
+@media (max-width: 680px) {
+  .zIndex {
+    bottom: 273px; } }
+
+@media (max-width: 360px) {
+  .zIndex {
+    bottom: 285px; }
   .download {
     margin-top: 25px;
     width: 145px;
     height: 40px; } }
 
 .ContactUsForm {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  justify-content: center; }
 
 .LeftSideOfBox {
   margin-right: 30px; }
@@ -1273,11 +1237,8 @@ header {
 
 @media (max-width: 1190px) {
   .ContactUsForm {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-bottom: 54px; } }
 
 @media (max-width: 1180px) {
@@ -1293,21 +1254,13 @@ header {
 
 .MyFooter {
   background-color: black;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center; }
 
 .FooterIcons {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   padding-top: 15px;
   padding-bottom: 5px; }
 

@@ -91,7 +91,10 @@
 @media  (max-width:1221px) {
 
 .pic1SectionContent{
-    margin-left: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 16px;
+    margin-bottom: 53px;
 }
 .subContent{
     margin-left: 20px;
@@ -156,7 +159,9 @@
                 margin-top: 13px;
                 margin-bottom: 10px;
              } 
-
+            .pic1SectionImg{
+                margin : 0 auto;
+            }
             .city2{
                 margin-left: 35px;
                 height: 250px;  
