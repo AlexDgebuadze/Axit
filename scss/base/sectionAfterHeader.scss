@@ -218,5 +218,26 @@
 		top: 54px;
 		z-index: 0;
 	  }
+
+
+	  .secRight{
+		  margin-left: 140px;
+	  }
 	
+}
+
+@media (max-width: 485px){
+	.secRight{
+		margin-left: 90px;
+	}
+}
+@media (max-width: 400px){
+	.secRight{
+		margin-left: 45px;
+	}
+}
+@media (max-width: 342px){
+	.secRight{
+		margin-left: 20px;
+	}
 }
