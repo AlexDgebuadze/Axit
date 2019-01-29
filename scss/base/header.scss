@@ -34,6 +34,13 @@ header{
     font-style: normal;
     font-size: $fontSizeSmall;
 }
+.nav-item:hover{
+    background-color: #ff6600;
+}
+.HeaderTextSize:hover{
+    color: white;
+}
+
 
 
 @media  (max-width:950px) {

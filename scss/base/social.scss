@@ -48,6 +48,25 @@
     color: #CCCCCC;
     text-align: center;
 }
+.ColorChangeOnHover{
+    color:#CCCCCC;
+}
+.fa-pinterest{
+    color:#858585;
+}
+
+
+
+/////
+.MainIcon:hover{
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+}
+.ColorChangeOnHover:hover{
+    color:#ff6600;
+}
+
 
 
 @media  (max-width:1175px) {

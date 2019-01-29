@@ -43,9 +43,9 @@
 
 .zIndex{
     position: relative;
-    bottom: 260px;
+    bottom: 265px;
     z-index: 1;
-    @include paddingLR(15px,15px);
+    @include paddingLR(15px,10px);
 
 }
 .TitleOfHeadS{
@@ -71,7 +71,13 @@
 
 @media (max-width:680px){
     .zIndex{
-        bottom: 273px;
+        bottom: 277px;
+    }
+}
+
+@media (max-width:393px){
+    .zIndex{
+        bottom: 290px;
     }
 }
 

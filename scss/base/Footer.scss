@@ -27,3 +27,8 @@ padding-bottom: 15px;
     margin-left: 12px;
     margin-right: 12px;
 }
+.smallIcons:hover{
+    -ms-transform: scale(1.3); 
+    -webkit-transform: scale(1.3); 
+    transform: scale(1.3); 
+}
