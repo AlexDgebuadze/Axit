@@ -80,7 +80,11 @@
     line-height: 43px;
 }
 .secContent{
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
   position: absolute;
+  width: 80.5%;
   left: 127px;
   top: 95px;
   z-index: 0;

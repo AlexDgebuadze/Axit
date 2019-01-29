@@ -191,7 +191,17 @@ header {
   line-height: 43px; }
 
 .secContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   position: absolute;
+  width: 80.5%;
   left: 127px;
   top: 95px;
   z-index: 0; }
